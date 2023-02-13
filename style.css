@@ -102,7 +102,7 @@
 
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .nav a {
@@ -199,8 +199,12 @@ h1 {
 
 .card {
     margin: 0px 10px 0px 10px;
+    opacity: 0.5;
 }
 
+.card:hover {
+    opacity: 1;
+}
 
 
 

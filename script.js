@@ -94,3 +94,13 @@ function getPrices() {
 getPrices();
 
 
+
+
+let searchButton = document.querySelector('#searchsubmit');
+
+searchButton.addEventListener('click', function () {
+
+    alert("this button works");
+
+
+});
