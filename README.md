@@ -1,4 +1,4 @@
-# Crypto App Template
+# Crypto App Template - Work in Progress
 
 ## The Task:
 
