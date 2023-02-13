@@ -41,6 +41,7 @@ function getPrices() {
             let litecoinPrice = prices.litecoin.gbp
             let dogecoinPrice = prices.dogecoin.gbp
 
+            let modalPrice = document.getElementById('coin-price');
             let coinData = document.getElementById('prices-container');
 
             html += 
@@ -83,10 +84,10 @@ function getPrices() {
         })
 
     // calls for the prices every 10 seconds
-    // setInterval(function() {
+    setInterval(function() {
 
-    //     getPrices();
-    // },10000);
+        getPrices();
+    },100000);
 
 }
 

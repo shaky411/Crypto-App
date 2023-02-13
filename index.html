@@ -51,14 +51,50 @@
         <img src="./assets/crypto_background.jpg" alt="">
     </div> -->
 
+    <div class="banner">
+        <h4>
+            Your price search starts here!
+        </h4>
+        <p>learn more about what we do by clicking the about tab in the nav</p>
+    </div>
+    
+
     <div id="prices-container" class="container">
 
     </div>
 
     <div class="main">
+        
         <button type="button" class="btn btn-primary more-info" data-toggle="modal" data-target="#exampleModal">
             More Info
         </button>
+    </div>
+
+    <div class="info-cards">
+        <div class="card" style="width: 18rem;">
+            <img src="./assets/crypto-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Live cryto prices.</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/crypto-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Search your favorite coins.</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/crypto_background.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Save your favorite coins for quick access.</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/crypto-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Add free webpage.</p>
+            </div>
+          </div>
     </div>
 
 
@@ -78,9 +114,18 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
+
                 <div class="modal-body">
-                    ...
+                    <div class="coin-container">
+                        <div id="bitcoin" class="logo"><img src="/assets/bitcoin.png" alt="">Bitcoin</div>
+                        <p id="coin-price">£1000</p>
+                    </div>
+                    
+                    <div id="ethereum" class="logo"><img src="/assets/ethereum.png" alt="">Ethereum</div>
+                    <div id="litecoin" class="logo"><img src="/assets/litecoin.png" alt="">Litecoin</div>
+                    <div id="dogecoin" class="logo"><img src="/assets/dogecoin.png" alt="">Dogecoin</div>
                 </div>
+
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
