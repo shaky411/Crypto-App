@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --navBar: #00FFC2;
+    --navBarDark: #FF0095;
+    --jumbotron: #A5A6F6;
+    --jumbotronDark: #002553;
+    --footer: #5D5FEF;
+    --footerDark: #21252B;
+    --bodyDark: #282C34;
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+
+.prices-container {
+    display: flex;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.container img {
+    width: 100px;
+    height: 100%;
+}
+
+.coin-image {
+    width: 100px;
+    height: 100px;
+}
+
+.container .coin-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc;
+    margin: 7px;
+}
+
+.container .coin-price .Logo {
+    width: 70px;
+    margin-right: 10px;
+}
+
+.container .coin-price .Logo img {
+    width: 100%;
+}
+
+.container .coin-price div {
+    display: block;
+}
+
+.container .coin-price div h1 {
+    font-size: 20px;
+}
+
+/* .coin-price {
+    background-color: black;
+    color: #fff;
+} */
+
+
+
+
+
+
+
+/* .hide {
+    display: none;
+} */
+
+
+/* Header items */
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--footer);
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    border-radius: 0px;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+.nav a {
+    color: #fff !important;
+    border-style: none;
+}
+
+.nav a:hover {
+    color: var(--navBar) !important;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.more-info {
+    margin-top: 20px;
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc;
+    background-color: var(--footer);
+    color: #fff;
+}
+
+
+.more-info:hover {
+    background-color: var(--navBar);
+    color: black;
+}
+
+
+
+
+/* Modal */
