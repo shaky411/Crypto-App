@@ -51,28 +51,28 @@ function getPrices() {
             <div class="logo"><img src="/assets/bitcoin.png" alt=""></div>
             <div>
                 <h1>Bitcoin</h1>
-                <h1>${bitcoinPrice}</h1>
+                <h1>£${bitcoinPrice}</h1>
             </div>
         </div>
         <div class="coin-price">
             <div class="logo"><img src="/assets/ethereum.png" alt=""></div>
             <div>
                 <h1>Ehereum</h1>
-                <h1>${ethereumPrice}</h1>
+                <h1>£${ethereumPrice}</h1>
             </div>
         </div>
         <div class="coin-price">
             <div class="logo"><img src="/assets/litecoin.png" alt=""></div>
             <div>
                 <h1>Litecoin</h1>
-                <h1>${litecoinPrice}</h1>
+                <h1>£${litecoinPrice}</h1>
             </div>
         </div>
         <div class="coin-price">
             <div class="logo"><img src="/assets/dogecoin.png" alt=""></div>
             <div>
                 <h1>Dogecoin</h1>
-                <h1>${dogecoinPrice}</h1>
+                <h1>£${dogecoinPrice}</h1>
             </div>
         </div>
     </div>

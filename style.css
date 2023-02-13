@@ -110,8 +110,38 @@ h1 {
     border-style: none;
 }
 
+.nav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
 .nav a:hover {
     color: var(--navBar) !important;
+    
+}
+
+.nav-item {
+    float: right;
+    /* padding: 6px; */
+    border: none;
+    /* margin-top: 8px; */
+    margin-right: 16px;
+    font-size: 17px;
+    height: 30px;
+}
+
+.btn {
+    margin-left: 10px;
+    background-color: var(--navBar);
+    color: black;
+    border-style:none;
+}
+
+.btn:hover {
+    margin-left: 10px;
+    background-color: var(--navBarDark);
+    color: #fff;
 }
 
 
