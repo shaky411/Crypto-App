@@ -22,6 +22,10 @@
     min-height: 100vh;
 } */
 
+body {
+    /* background-color: #002553; */
+}
+
 .prices-container {
     display: flex;
 
@@ -88,7 +92,34 @@
 
 
 /* Header items */
-.jumbotron {
+/* .jumbotron {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--footer);
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    border-radius: 0px;
+} */
+
+
+
+
+.header-dark {
+    background-color: #002553;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    border-radius: 0px;
+}
+
+.header-light {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -100,8 +131,12 @@
     border-radius: 0px;
 }
 
+.header-dark h1 {
+    color: #00FFC2;
+}
 
-h1 {
+
+ h1 {
     font-size: 70px;
 }
 
@@ -144,6 +179,31 @@ h1 {
     color: #fff;
 }
 
+.day-night {
+    margin-left: 40px;
+}
+
+#light-button {
+    background-color: var(--footer);
+    color: #fff;
+    margin: 0px;
+}
+
+#light-button:hover {
+    background-color: var(--jumbotron);
+    color: #fff;
+}
+
+#dark-button {
+    background-color: var(--footer);
+    color: #fff;
+    margin: 0px;
+}
+
+#dark-button:hover {
+    background-color: var(--navBar);
+    color: black;
+}
 
 .main {
     display: flex;
@@ -194,12 +254,14 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 200px;
     
 }
 
 .card {
     margin: 0px 10px 0px 10px;
     opacity: 0.5;
+    box-shadow: 0 0 3px #ccc;
 }
 
 .card:hover {
@@ -207,5 +269,21 @@ h1 {
 }
 
 
+/* footer */
+
+.footer {
+    background-color: var(--footer);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
 
 /* Modal */

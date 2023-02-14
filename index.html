@@ -15,9 +15,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&family=Poppins&display=swap"
         rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
 
     <title>Document</title>
 
@@ -26,29 +26,36 @@
 
 <body>
 
-    <header class="jumbotron">
-        <h1>CryptoHub</h1>
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Prices</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Social</a>
-            </li>
-            <form id="search" class="form-inline my-2 my-lg-0">
-                <input id="searchbox" class="form-control mr-mg-2" type="search" aria-label="Search"
-                    placeholder="search more coins...">
-                <button id="searchsubmit" class="btn my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </ul>
-    </header>
+
+        <header class="jumbotron header-dark">
+            <h1>CryptoHub</h1>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Prices</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Social</a>
+                </li>
+                <form id="search" class="form-inline my-2 my-lg-0">
+                    <input id="searchbox" class="form-control mr-mg-2" type="search" aria-label="Search"
+                        placeholder="search more coins...">
+                    <button id="searchsubmit" class="btn my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <div class="day-night">
+                    <button id="light-button" type="button" class="btn btn-light"><i class="fa-regular fa-sun"></i></button>
+                    <button id="dark-button" type="button" class="btn btn-dark"><i class="fa-solid fa-moon"></i></button>
+                </div>
+                
+            </ul>
+        </header>
+    
 
     <!-- <div class="banner">
         <img src="./assets/crypto_background.jpg" alt="">
@@ -58,17 +65,20 @@
         <h4>
             Your price search starts here!
         </h4>
-        <p>learn more about what we do by clicking the about tab in the nav</p>
+        <p>learn more about what we do by clicking the about tab in the navbar</p>
     </div>
-    
+
 
     <div id="prices-container" class="container">
 
     </div>
 
     <div class="main">
-        
-        <button type="button" class="btn btn-primary more-info" data-toggle="modal" data-target="#exampleModal">
+
+
+
+        <button id="info-button" type="button" class="btn btn-primary more-info" data-toggle="modal"
+            data-target="#exampleModal">
             More Info
         </button>
     </div>
@@ -77,27 +87,33 @@
         <div class="card" style="width: 18rem;">
             <img src="./assets/crypto-1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Live cryto prices.</p>
+                <p class="card-text">Live crypto prices.</p>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
+        </div>
+        <div class="card" style="width: 18rem;">
             <img src="./assets/crypto-2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Search your favorite coins.</p>
+                <p class="card-text">Search your favorite coins.</p>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
+        </div>
+        <div class="card" style="width: 18rem;">
             <img src="./assets/crypto_background.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Save your favorite coins for quick access.</p>
+                <p class="card-text">Save your favorite coins for quick access.</p>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
+        </div>
+        <div class="card" style="width: 18rem;">
             <img src="./assets/crypto-3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">No adverts.</p>
+                <p class="card-text">No adverts.</p>
             </div>
-          </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>
+            CryptoHub &copy 2023
+        </p>
     </div>
 
 
@@ -123,7 +139,7 @@
                         <div id="bitcoin" class="logo"><img src="/assets/bitcoin.png" alt="">Bitcoin</div>
                         <p id="coin-price">£1000</p>
                     </div>
-                    
+
                     <div id="ethereum" class="logo"><img src="/assets/ethereum.png" alt="">Ethereum</div>
                     <div id="litecoin" class="logo"><img src="/assets/litecoin.png" alt="">Litecoin</div>
                     <div id="dogecoin" class="logo"><img src="/assets/dogecoin.png" alt="">Dogecoin</div>

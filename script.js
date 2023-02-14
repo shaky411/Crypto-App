@@ -84,10 +84,10 @@ function getPrices() {
         })
 
     // calls for the prices every 10 seconds
-    setInterval(function() {
+    // setInterval(function() {
 
-        getPrices();
-    },100000);
+    //     getPrices();
+    // },100000);
 
 }
 
@@ -103,4 +103,36 @@ searchButton.addEventListener('click', function () {
     alert("this button works");
 
 
+});
+
+
+
+
+// Light/Dark modes
+
+// Access toggle switch HTML element
+let lightBtn = document.querySelector("#light-button");
+let darkBtn = document.querySelector("#dark-button");
+let header = document.querySelector(".jumbotron");
+let footer = document.querySelector("footer");
+
+
+// Set default mode to dark
+let mode = "header-dark";
+
+// Listen for a click event on toggle switch
+lightBtn.addEventListener("click", function() {
+  // If mode is dark, apply light background
+  if (mode === "header-dark") {
+    mode = "header-light";
+    header.setAttribute("class", "header-light");
+    
+  }
+  
+  // If mode is light, apply dark background 
+    darkBtn.addEventListener('click', function(){
+        mode = "header-dark";
+        header.setAttribute("class", "header-dark");
+    })
+    
 });
